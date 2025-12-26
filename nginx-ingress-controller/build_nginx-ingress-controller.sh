@@ -106,7 +106,7 @@ function configureAndInstall() {
     cd "$SOURCE_ROOT"
     mkdir -p "$GOPATH/src/k8s.io/"
     cd "$GOPATH/src/k8s.io/"
-    git clone -b controller-v$PACKAGE_VERSIO https://github.com/kubernetes/ingress-nginx.git
+    git clone -b controller-v$PACKAGE_VERSION https://github.com/kubernetes/ingress-nginx.git
     cd ingress-nginx/
     printf -- "Cloned nginx-ingress-controller successfully.\n"
 
