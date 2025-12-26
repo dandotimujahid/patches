@@ -18,7 +18,7 @@ TESTRUNNER_VERSION="2.2.4"
 TESTS="false"
 FORCE="false"
 LOG_FILE="$SOURCE_ROOT/logs/${PACKAGE_NAME}-${PACKAGE_VERSION}-$(date +"%F-%T").log"
-PATCH_URL="https://raw.githubusercontent.com/linux-on-ibm-z/scripts/master/NGINX-ingress-controller/1.14.0/patch"
+PATCH_URL="https://github.com/dandotimujahid/patches/blob/main/nginx-ingress-controller/"
 BUILD_ENV="$HOME/setenv.sh"
 
 trap cleanup 0 1 2 ERR
